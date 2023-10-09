@@ -78,6 +78,10 @@ body::before {
     cursor: pointer;
 }
 
+.btnComecar:hover {
+    background-color: purple;
+    border: 1px solid purple;
+}
 .container__texto-azul {
     color: #fff;
 }
