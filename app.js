@@ -1,5 +1,5 @@
 const acertou = document.querySelector('.container__texto h1');
-const iniciarBt = document.querySelector('.btnComecar');
+const iniciarBt = document.querySelector('.container__botao');
 
 let numeroMaximo = 10;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
