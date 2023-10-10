@@ -14,6 +14,10 @@ body {
 }
 
 @media screen and (min-width: 320px) {
+    .container {
+        max-width: 600px;
+        margin: 0 10px;
+    }
     .container__conteudo {
         width: 100%;
         height: 100%;
@@ -30,7 +34,7 @@ body {
 
     .container__imagem-trophy {
         position: relative;
-        left: 80%;
+        left: 78%;
     }
     
     .container__texto {
@@ -44,14 +48,18 @@ body {
 }
 
 @media screen and (min-width: 688px) {
-    .container__texto h1 {
-        width: 400px;
-        padding: 2em 0;
+    .container__texto h1{
+        margin-top: 6rem;
+        
     }
 
     .container__imagem-trophy {
         position: absolute;
-        left: 90%;
+        left: 80%;
+    }
+
+    .btnComecar {
+        margin-top: 2rem;
     }
     
 }
