@@ -139,27 +139,17 @@ body::before {
     font-weight: 700;
     border: none;
     margin-top: 16px;
+    cursor: pointer;
 }
 
+.container__botao:hover {
+    background-color: purple;
+    border: 1px solid purple;
+}
 .container__texto {
     margin: 16px 0 16px 0;
 }
 
-.btnComecar {
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #1875E8;
-    background-color: #1875E8;
-    font-size: 18px;
-    position: relative;
-    top: 50px;
-    cursor: pointer;
-}
-
-.btnComecar:hover {
-    background-color: purple;
-    border: 1px solid purple;
-}
 .container__texto-azul {
     color: #fff;
 }

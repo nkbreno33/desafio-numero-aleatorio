@@ -6,7 +6,9 @@ let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 let chute;
 let tentativas = 1;
 
-iniciarBt.addEventListener('click', function () {
+iniciarBt.addEventListener('click', clicou);
+
+function clicou () {
     while (chute != numeroSecreto) {
         chute = prompt(`Digite um número entre 1 e ${numeroMaximo}`);
           
@@ -25,4 +27,5 @@ iniciarBt.addEventListener('click', function () {
             tentativas ++; 
         }
     } 
-})
+}
+
