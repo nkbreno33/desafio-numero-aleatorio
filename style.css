@@ -13,11 +13,52 @@ body {
     justify-content: center;
 }
 
+@media screen and (min-width: 320px) {
+    .container__conteudo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
 
+    .container__imagem-robo {
+        align-self: flex-start;
+        position: absolute;
+        width: 100px;   
+    }
+
+    .container__imagem-trophy {
+        position: relative;
+        left: 80%;
+    }
+    
+    .container__texto {
+        text-align: center;
+    }
+
+    .container__texto h1 {
+        font-size: 3em;
+        padding: 1.5em 0;
+    }
+}
+
+@media screen and (min-width: 688px) {
+    .container__texto h1 {
+        width: 400px;
+        padding: 2em 0;
+    }
+
+    .container__imagem-trophy {
+        position: absolute;
+        left: 90%;
+    }
+    
+}
 body::before {
     background-image: url("img/code.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     content: "";
     display: block;
     position: absolute;
